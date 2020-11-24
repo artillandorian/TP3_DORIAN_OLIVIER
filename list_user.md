@@ -28,6 +28,7 @@ Il permet de créer des sous catégories à des éléments. Tel que pour l'élé
 ????
 
 **7. Quel est le nom de l'opérateur qui transmet les données du composant `App` vers le composant `User`? Pourquoi est-ce dangereux d'abuser de cet opérateur ?**
+l'opérateur est "export default". Il est lié au nom de du fichier car c'est un export default. Il est aussi possible d'exporter sans default, mais de ce cas, cet export n'est pas lié au nom du fichier mais au nom de la fonction en elle meme.
 
 
 **8. Ajoutez un paragraphe `p` au composant `User` pour afficher la date de naissance sous la forme "Né le 27/02/1942" pour un homme ou "Née le 27/02/1942" pour une femme en utilisant une condition ternaire. Copiez le code ajouté dans ce document en guise de réponse.**
